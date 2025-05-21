@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.payment-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.payment-form button {
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.qr-container {
+  margin-top: 20px;
+}
+
+.status {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success {
+  background: #d4edda;
+  color: #155724;
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+}
